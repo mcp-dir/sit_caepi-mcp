@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sit_caepi-mcp",
+  "title": "Secretaria de Inspeção do Trabalho: CAEPI",
+  "description": "Secretaria de Inspeção do Trabalho: CAEPI, official-source lookup. Platform-hosted, pay per query wi",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sit_caepi-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sit_caepi"
+    }
+  ]
+}
